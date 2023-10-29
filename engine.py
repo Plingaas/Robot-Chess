@@ -5,7 +5,7 @@ from stockfish import Stockfish
 class ChessEngine:
     def __init__(
         self,
-        stockfish_path="stockfish-windows-x86-64-avx2/stockfish/stockfish-windows-x86-64-avx2.exe",
+        stockfish_path="stockfish/stockfish-windows-x86-64-avx2.exe",
     ):
         self.plays = []
         self.stockfish = Stockfish(stockfish_path)

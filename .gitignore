@@ -1,4 +1,4 @@
-stockfish-windows-x86-64-avx2/
+stockfish/
 .vscode/
 __pycache__/
 yolo.py
